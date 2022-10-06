@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background: hsl(216, 12%, 8%);
+  font-family: 'Overpass', sans-serif;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-component-wrapper {
+  background: hsl(213, 19%, 18%);
+  width: 22rem;
+  padding: 1.5625rem;
+  border-radius: 1.25rem;
+}
+
+.star {
+  background: hsl(213, 19%, 27%);
+  display: inline-flex;
+  border-radius: 50%;
+  padding: 0.625rem;
+  margin: 0.625rem 0;
+}
+
+h1,
+.ty-title {
+  padding: 0.9rem 0;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5625rem;
+}
+
+.ty-title {
+  padding: 0.5rem 0 0.0625rem 0;
+  text-align: center;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.rating-numbers {
+  margin: 1.25rem 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.625rem;
+}
+
+.rating {
+  background: hsl(213, 19%, 27%);
+  border-radius: 50%;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  text-align: center;
+  padding: 0.9375rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: hsl(217, 12%, 63%);
+}
+
+.rating:hover {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.rating-active {
+  background: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.thankyou-svg img {
+  margin: auto;
+  display: block;
+}
+
+.submitted-text-container {
+  padding-top: 1.5625rem;
+}
+
+.punctuation-container {
+  text-align: center;
+}
+.punctuation {
+  background: hsl(213, 19%, 27%);
+  color: orange;
+  text-align: center;
+  font-weight: 400;
+  display: inline-block;
+  padding: 0.5rem 0.5625rem 0.4375rem 0.5625rem;
+  border-radius: 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+button {
+  display: inline-block;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  letter-spacing: 0.125rem;
+  color: hsl(0, 0%, 100%);
+  border-radius: 1.25rem;
+  background: hsl(25, 97%, 53%);
+  border: none;
+  padding: 0.875rem 0;
+}
+
+button:hover {
+  background: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.ty-text {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0.625rem;
+  transform: translateX(-50%);
+  left: 50%;
+}
